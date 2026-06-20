@@ -8,11 +8,9 @@ public class secondMin {
                 min = arr[i];
             } else if (arr[i] < smin && arr[i] != min)
                 smin = arr[i];
-
         }
         return smin;
     }
-
     public static void main(String[] args) {
         int[] arr = { 4, 21, 33, 44, 55, 66, 77, 88, 99, 100 };
         System.out.println(arr);
