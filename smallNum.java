@@ -7,7 +7,6 @@ public class smallNum {
         }
         return min;
     }
-
     public static void main(String[] args) {
         int arr[] = { -21, -11, -1, 0, 1, 11, 22, 33, 44, 55, 66, 77, 100 };
         System.out.println(findSmall(arr));
